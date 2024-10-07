@@ -51,12 +51,14 @@ header {
     color: #fff;
     font-size: 6vh;
     display: none;
+    cursor: pointer;
 }
 
 .close_Bar {
     color: #fff;
     font-size: 6vh;
     display: none;
+    cursor: pointer;
 }
 
 .content {
@@ -170,10 +172,5 @@ header {
 
     .open_Bar {
         display: block;
-        cursor: pointer;
-    }
-
-    .close_Bar {
-        cursor: pointer;
     }
 }
