@@ -134,7 +134,6 @@ header {
         top: 100%;
         left: 0;
         width: 100%;
-        display: none;
         flex-direction: column;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.1);
