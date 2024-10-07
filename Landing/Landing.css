@@ -19,7 +19,7 @@ header {
 }
 
 .logo {
-    width: 5rem;
+    width: 13vh;
 }
 
 .navbar {
@@ -65,7 +65,7 @@ header {
 }
 
 .content h1 {
-    font-size: 120px;
+    font-size: 12vw;
     color: #fff;
     font-weight: 600;
     transition: 0.5s;
@@ -88,7 +88,7 @@ header {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-size: 24px;
+    font-size: 2.5vw;
     border: 2px solid #ffffff;
     padding: 14px 70px;
     border-radius: 50px;
@@ -99,7 +99,7 @@ header {
 }
 
 .Explore:hover {
-    font-size: 26px;
+    font-size: 2.8vw;
 }
 
 .background1 {
@@ -114,23 +114,19 @@ header {
 
 @media (max-width: 600px) {
     .content h1 {
-        font-size: 80px;
+        font-size: 20vw;
     }
 
     .content h3 {
-        font-size: 20px;
+        font-size: 7vw;
     }
 
     .Explore {
-        font-size: 16px;
+        font-size: 4vw;
     }
 
     .Explore:hover {
-        font-size: 18px;
-    }
-
-    .navbar{
-        padding: 10px 3%;
+        font-size: 5vw;
     }
 
     .navItems {
@@ -147,10 +143,29 @@ header {
     }
 
     .navItems a {
-        margin: 1rem 0;
+        margin: 1rem;
     }
 
     .open_Bar {
         display: block;
+    }
+
+}
+
+@media (max-height: 600px) {
+    .content h1 {
+        font-size: 15vh;
+    }
+
+    .content h3 {
+        font-size: 6vh;
+    }
+
+    .Explore {
+        font-size: 3vh;
+    }
+
+    .Explore:hover {
+        font-size: 4vh;
     }
 }
